@@ -8,11 +8,11 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=lo
 logger = logging.getLogger(__name__)
 queue = asyncio.Queue()
 
-api_id = 1 # 請替換成自己api_id
-api_hash = '' # 請替換成自己api_hash
+api_id = 29310987 # 請替換成自己api_id
+api_hash = '336c28913a45587a4c10af8cd620b68f' # 請替換成自己api_hash
 
 # 群組列表
-chat_list = ['https://t.me/*'] # 請替換成自己想要監聽群組
+chat_list = ['https://t.me/+7q2mVtCSFdRlZDQ1','https://t.me/+2vlKRC4EFxE1ODY1','https://t.me/+Vw90lZkRbjFhZjll','https://t.me/+6T5IjguSdptjMWRl','https://t.me/+V1nx8HQ4MQ5jMWE1','https://t.me/+co7lhYGrp-U0MzA1','https://t.me/+3Yu4_0Cz8PphMDll','https://t.me/+U-IztMzAYQ8xYjBl','https://t.me/+KDA8rFY3nRw4NjFl','https://t.me/+NOX8KX6lL5VlOTQ1','https://t.me/+JL7O4xcgmQJmY2E1','https://t.me/+EeyaOZJH7Xs2OTM1','https://t.me/+5bWZah_RRZk5MGQ1','https://t.me/+GIm6s5Jkq0owZjE1','https://t.me/+XMKQR_ZZ_DA0MTFl','https://t.me/+AruC4GYfvvU5MmQ9','https://t.me/+_TY8cHctNJpiYmVl','https://t.me/+n9KktkVRvAUxMzJl','https://t.me/+UwTVfe2ps6c3NTc1','https://t.me/+_8KmQVK5iBdiZTk1','https://t.me/+-F6sKYyivmM0OGZl','https://t.me/+xZAIbZq7LkZlOTc9','https://t.me/+EeyaOZJH7Xs2OTM1','https://t.me/+Rgz77W-Jm49jZmI1','https://t.me/+2SsDwGrPA4lmNWU1'] # 請替換成自己想要監聽群組
 
 # 計算檔案大小
 def convert_size(text):
